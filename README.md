@@ -1,61 +1,15 @@
-[![Build Status](https://travis-ci.org/LoyolaChicagoCode/hello-java.svg?branch=master)](https://travis-ci.org/LoyolaChicagoCode/hello-java)
+Part 2
+Pass 17 through the function, hard code it in main. 
 
-This build will always fail because it has 2 examples of failing tests:
-one based on the source code, and one based on an incorrect test.
+Part 3
+I would have tested it by print statements since it does not
+return anything. 
 
-# Learning Objectives
-
-* Simple hello world example
-* Experience with Git source code management
-* Building with Gradle (using the Gradle wrapper)
-* Automated unit testing with JUnit
-* Continuous integration with Travis
-
-# System requirements
-
-* Java 6 SDK or later
-
-# Running the Application
-
-On Linux or Mac OS X:
-
-    $ ./gradlew run
-	
-On Windows:
-	
-    > gradlew run
-
-# Running the Tests
-
-On Linux or Mac OS X:
-
-    $ ./gradlew test
-	
-On Windows:
-	
-    > gradlew test
-
-# Running the Application Outside Gradle
-
-Unlike running the application using Gradle's `run` task,
-this allows passing command-line arguments.
-
-On Linux or Mac OS X:
-
-    $ ./gradlew startScripts
-    $ ./build/scripts/hello-java arg1 arg2 arg3
-
-or
-
-    $ ./gradlew jar
-    $ java -jar build/lib/hello-java.jar arg1 arg2 arg3
-
-On Windows:
-
-    > gradlew startScripts
-    > .\build\scripts\hello-java arg1 arg2 arg3
-
-or
-
-    > gradlew jar
-    > java -jar build\lib\hello-java.jar arg1 arg2 arg3
+Part 4
+From part 2 and part 3, part 2 is a void function, meaning it
+has no return type. In part 3, we are returning the data in a 
+string array. We did that because we can test the data with
+the java test class. Part 3 is being stored in a Arrary while
+part is being stored in a list. You would use a Array 
+when you know exactly how many inputs of n. you would use an
+List when you do not know how many n's there are. 
